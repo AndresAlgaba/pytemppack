@@ -1,13 +1,11 @@
 .. |pic1| image:: https://img.shields.io/badge/python-3.8%20%7C%203.9-blue
-.. |pic2| image:: https://img.shields.io/badge/security-bandit-yellow.svg
-.. |pic3| image:: https://img.shields.io/github/license/mashape/apistatus.svg
-.. |pic4| image:: https://img.shields.io/badge/code%20style-black-000000.svg
-.. |pic5| image:: http://www.mypy-lang.org/static/mypy_badge.svg
-.. |pic6| image:: https://img.shields.io/badge/platform-windows%20%7C%20linux%20%7C%20macos-lightgrey
-.. |pic7| image:: https://github.com/AndresAlgaba/pytemppack/actions/workflows/testing.yml/badge.svg
-.. |pic8| image:: https://img.shields.io/readthedocs/pytemppack
-.. |pic9| image:: https://img.shields.io/pypi/v/pytemppack
-.. |pic10| image:: https://img.shields.io/badge/isort-checked-yellow
+.. |pic2| image:: https://img.shields.io/github/license/mashape/apistatus.svg
+.. |pic3| image:: https://img.shields.io/badge/code%20style-black-000000.svg
+.. |pic4| image:: https://img.shields.io/badge/%20type_checker-mypy-%231674b1?style=flat
+.. |pic5| image:: https://img.shields.io/badge/platform-windows%20%7C%20linux%20%7C%20macos-lightgrey
+.. |pic6| image:: https://github.com/AndresAlgaba/pytemppack/actions/workflows/testing.yml/badge.svg
+.. |pic7| image:: https://img.shields.io/readthedocs/pytemppack
+.. |pic8| image:: https://img.shields.io/pypi/v/pytemppack
 
 .. _pytemppack: https://github.com/AndresAlgaba/pytemppack/tree/main/pytemppack
 .. _examples: https://github.com/AndresAlgaba/pytemppack/tree/main/examples
@@ -16,6 +14,7 @@
 .. _poetry: https://python-poetry.org/docs/
 .. _pip: https://mypy.readthedocs.io/en/stable/config_file.html#the-mypy-configuration-file
 
+.. _bandit: https://bandit.readthedocs.io/en/latest/
 .. _black: https://black.readthedocs.io/en/stable/index.html
 .. _pytest: https://docs.pytest.org/en/stable/index.html
 .. _pytest-cov: https://pytest-cov.readthedocs.io/en/stable/index.html
@@ -36,14 +35,13 @@
 
 .. _repo: https://github.com/JamesALeedham/Sphinx-Autosummary-Recursion
 
+
 pytemppack
 ==========
 
-|pic3| |pic6| |pic1| |pic9|
+|pic2| |pic5| |pic1| |pic8|
 
-|pic4| |pic5| |pic10| |pic2|
-
-|pic7| |pic8|
+|pic6| |pic7| |pic3| |pic4|
 
 This is a template for Python packages with `poetry`_ with additional tools for development, such as autoformatting, type checking, and more.
 
@@ -62,6 +60,7 @@ Features
 * Issue and pull request `templates`_.
 * Templates for `changelog`_, `code of conduct`_ and `contribute`_.
 * Testing with `pytest`_ and coverage with `pytest-cov`_.
+* Security scanning with `Bandit`_.
 * Static type-checking with `mypy`_.
 
 
@@ -123,5 +122,4 @@ Use it only if the content and output files make sense to you.
 Acknowledgements
 ----------------
 
-This README contains many embedded links from which inspiration was drawn. We suggest to check them out!
-Especially, this `repo`_ was a great help for autosummary recurssion to document the API.
+This `repo`_ was a great help for autosummary recurssion to document the API.
