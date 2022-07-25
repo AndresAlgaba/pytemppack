@@ -35,6 +35,8 @@
 
 .. _repo: https://github.com/JamesALeedham/Sphinx-Autosummary-Recursion
 
+.. _Dynamic versioning: https://pypi.org/project/poetry-dynamic-versioning/
+
 
 pytemppack
 ==========
@@ -62,6 +64,12 @@ Features
 * Testing with `pytest`_ and coverage with `pytest-cov`_.
 * Security scanning with `Bandit`_.
 * Static type-checking with `mypy`_.
+
+
+TODO
+----
+
+* `Dynamic versioning`_.
 
 
 Installation
