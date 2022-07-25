@@ -1,7 +1,7 @@
 pytemppack
 ==========
 
-A python package template with poetry.
+A template for Python packages with poetry.
 
 .. toctree::
    :maxdepth: 2
