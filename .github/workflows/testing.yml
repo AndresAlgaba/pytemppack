@@ -44,6 +44,9 @@ jobs:
       - name: flake8
         run: python -m flake8 .
 
+      - name: bandit
+        run: python -m bandit .
+
       - name: mypy
         run: python -m mypy pytemppack
 

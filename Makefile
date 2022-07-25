@@ -17,6 +17,7 @@ check: clean
 	poetry run python -m isort . -c
 	poetry run python -m black . --check
 	poetry run python -m flake8 .
+	poetry run python -m bandit .
 	poetry run python -m mypy $(source)
 	make clean
 
