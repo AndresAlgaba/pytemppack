@@ -1,3 +1,5 @@
+.. |nbsp| unicode:: U+00A0 .. NO-BREAK SPACE
+
 .. |pic1| image:: https://img.shields.io/badge/python-3.8%20%7C%203.9-blue
 .. |pic2| image:: https://img.shields.io/github/license/mashape/apistatus.svg
 .. |pic3| image:: https://img.shields.io/badge/code%20style-black-000000.svg
@@ -41,9 +43,9 @@
 pytemppack
 ==========
 
-|pic2| |pic5| |pic1| |pic8|
+|pic2| |nbsp| |pic5| |nbsp| |pic1| |nbsp| |pic8|
 
-|pic6| |pic7| |pic3| |pic4|
+|pic6| |nbsp| |pic7| |nbsp| |pic3| |nbsp| |pic4|
 
 This is a template for Python packages with `poetry`_ with additional tools for development, such as autoformatting, type checking, and more.
 
