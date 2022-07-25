@@ -16,7 +16,6 @@ nbsphinx==0.8.9; python_version >= "3.6"
 notebook==6.4.12; python_version >= "3.7"
 numpy==1.23.1; python_version >= "3.8"
 pandas==1.4.3; python_version >= "3.8"
-poetry-dynamic-versioning==0.17.1; python_version >= "3.5" and python_version < "4.0"
 sphinx-autodoc-typehints==1.18.3; python_version >= "3.7"
 sphinx-rtd-theme==1.0.0; (python_version >= "2.7" and python_full_version < "3.0.0") or (python_full_version >= "3.4.0")
 sphinx==5.0.2; python_version >= "3.6"
