@@ -4,21 +4,21 @@ pytemppack
 A template for Python packages with poetry.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: User's guide
 
    introduction
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Tutorials
 
    example
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: pytemppack
 
    API reference <_autosummary/pytemppack>
